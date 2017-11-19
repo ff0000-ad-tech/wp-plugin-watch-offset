@@ -10,14 +10,14 @@ WpPluginWatchOffset.prototype.apply = function(compiler) {
 
 	// offset start-time
 	compiler.plugin('watch-run', (watching, callback) => {
-		log('WATCH-RUN time adjust');
+		log(`advance start-time by ${timefix/1000}s - avoids generated files triggering watch cycle`);
 		watching.startTime += timefix;
 		callback();
 	});
 
 	// restore start-time
 	compiler.plugin('done', (stats) => {
-		log('DONE, time adjust back');
+		log(`restore start-time`);
 		stats.startTime -= timefix;
 	});
 };
