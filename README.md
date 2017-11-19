@@ -9,7 +9,7 @@ Please see https://github.com/webpack/watchpack/issues/25 for complete story.
 
 Credit to https://github.com/yessky for the fix https://github.com/yessky/webpack-mild-compile.
 
-##Usage
+## Usage
 **webpack.config.js**
 ```javascript
 	...
