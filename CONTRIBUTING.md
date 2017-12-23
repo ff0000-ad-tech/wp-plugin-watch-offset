@@ -1,8 +1,10 @@
 ##### RED Interactive Agency - Ad Technology
-===============
-# Contributing
 
-We are open to contributions from everyone. 
+Contributing
+===============
+
+We are open to contributions from everyone. However, we are employed & funded by RED Interactive, 
+so please keep in mind that our decisioning must be centric to that business.
 
 The goal of this project is to maintain a light-weight, fast-loading, flexible, and robust 
 framework for building interactive banners. 
