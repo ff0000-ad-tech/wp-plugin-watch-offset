@@ -1,7 +1,7 @@
 {
   "name": "wp-plugin-watch-offset",
   "version": "1.0.0",
-  "description": "Webpack Plugin - Watch Offset ===============",
+  "description": "Webpack Plugin - Watch Offset",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,11 +12,13 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ff0000-ad-tech/wp-plugin-watch-offset/issues"
-  },
-  "homepage": "https://github.com/ff0000-ad-tech/wp-plugin-watch-offset#readme",
   "dependencies": {
     "debug": "git://github.com/gmcdev/debug.git"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.5.0",
+    "prettier": "^1.10.2"
   }
 }
