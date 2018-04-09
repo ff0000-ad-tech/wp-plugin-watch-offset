@@ -1,0 +1,6 @@
+.prettierrc
+.package-lock.json
+.eslintrc
+.eslintignore
+CONTRIBUTING.md
+.travis.yml
