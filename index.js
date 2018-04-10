@@ -1,4 +1,4 @@
-const debug = require('debug')
+const debug = require('@ff0000-ad-tech/debug')
 var log = debug('wp-plugin-watch-offset')
 
 function WpPluginWatchOffset() {}
